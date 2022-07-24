@@ -1,0 +1,16 @@
+node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.vercel
+.env
+.cache
+dist
+node_modules
+*.log*
+**/.yarn/cache
+**/.yarn/*state*
+.nuxt
+.output

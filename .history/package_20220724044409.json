@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lerna:build": "FORCE_COLOR=1 lerna run prepack --stream --no-prefix",
+    "lerna:release": "FORCE_COLOR=1 lerna publish -m \"chore: release\"",
+    "lint": "eslint --ext .vue,.ts.mjs,.cjs,.js .",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.6"
+  }
+}
