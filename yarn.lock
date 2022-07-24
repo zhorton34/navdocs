@@ -8760,6 +8760,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"navdocs@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "navdocs@workspace:."
+  dependencies:
+    "@nuxtjs/eslint-config-typescript": ^10.0.0
+    eslint: ^8.20.0
+    jiti: ^1.14.0
+    lerna: ^5.1.8
+    nuxt: 3.0.0-rc.6
+    typescript: ^4.7.4
+    vercel: ^27.2.0
+  languageName: unknown
+  linkType: soft
+
 "negotiator@npm:^0.6.2, negotiator@npm:^0.6.3":
   version: 0.6.3
   resolution: "negotiator@npm:0.6.3"
@@ -11049,20 +11063,6 @@ __metadata:
   checksum: 74ccc98429709984a89af636250833e7502d87f1d9c6d96ebfe4b52030ebf94b9f6b84b8ab476670329a61d54b681d35eecdc601bac5b5396b099b1ea69970ef
   languageName: node
   linkType: hard
-
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  dependencies:
-    "@nuxtjs/eslint-config-typescript": ^10.0.0
-    eslint: ^8.20.0
-    jiti: ^1.14.0
-    lerna: ^5.1.8
-    nuxt: 3.0.0-rc.6
-    typescript: ^4.7.4
-    vercel: ^27.2.0
-  languageName: unknown
-  linkType: soft
 
 "run-async@npm:^2.4.0":
   version: 2.4.1
